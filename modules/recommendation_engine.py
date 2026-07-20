@@ -320,16 +320,7 @@ class RecommendationEngine:
         return plan
 
     def _estimate_completion_time(self, learning_path: List[Dict], profile: Dict) -> int:
-        """
-        Estimate weeks to complete learning path.
-
-        Args:
-            learning_path: Learning path modules
-            profile: Student profile
-
-        Returns:
-            Estimated weeks
-        """
+    
         total_hours = sum(module['estimated_hours'] for module in learning_path)
         daily_hours = profile.get('study_hours_per_day', 4)
         weekly_hours = daily_hours * 5  # Assuming 5 study days per week

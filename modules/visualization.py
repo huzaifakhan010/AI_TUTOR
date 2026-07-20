@@ -22,7 +22,7 @@ def create_performance_radar_chart(subject_scores: Dict) -> go.Figure:
         fillcolor='rgba(99, 110, 250, 0.3)'
     ))
 
-    # Add benchmark line at 70% (passing grade)
+    
     fig.add_trace(go.Scatterpolar(
         r=[70] * len(subjects),
         theta=subjects,
@@ -49,20 +49,11 @@ def create_performance_radar_chart(subject_scores: Dict) -> go.Figure:
 
 
 def create_subject_comparison_bar_chart(subject_scores: Dict, avg_score: float) -> go.Figure:
-    """
-    Create bar chart comparing subject scores to average.
-
-    Args:
-        subject_scores: Dictionary of subject names and scores
-        avg_score: Average score across all subjects
-
-    Returns:
-        Plotly figure object
-    """
+    
     subjects = list(subject_scores.keys())
     scores = list(subject_scores.values())
 
-    # Color bars based on performance
+
     colors = []
     for score in scores:
         if score >= 85:
@@ -86,7 +77,7 @@ def create_subject_comparison_bar_chart(subject_scores: Dict, avg_score: float) 
         name='Score'
     ))
 
-    # Add average line
+    
     fig.add_hline(
         y=avg_score,
         line_dash="dash",
