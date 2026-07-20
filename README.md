@@ -6,7 +6,7 @@ An intelligent web application that provides personalized learning path recommen
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 🎯 Project Overview
+## Project Overview
 
 This AI-powered educational tool helps students optimize their learning journey by:
 - Analyzing current academic performance across multiple subjects
@@ -15,7 +15,7 @@ This AI-powered educational tool helps students optimize their learning journey 
 - Creating realistic study schedules based on available time
 - Providing explainable AI reasoning for all recommendations
 
-## 🤖 AI Methodology
+##  AI Methodology
 
 ### Hybrid Recommendation System
 
@@ -39,7 +39,7 @@ The application implements a **hybrid AI approach** combining:
    - Aligns with stated learning goals
    - Optimizes for available study time
 
-## ✨ Features
+##  Features
 
 ### 1️⃣ Problem Setup Module
 - **Multiple Input Methods**: Manual form, CSV upload, or sample data selection
@@ -80,7 +80,7 @@ The application implements a **hybrid AI approach** combining:
 - **Approach Comparison**: Compare content-focused vs collaborative-focused strategies
 - **Visual Comparisons**: Side-by-side metric charts
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai_tutor_app/
@@ -103,7 +103,7 @@ ai_tutor_app/
     └── (placeholder for app screenshots)
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -150,7 +150,7 @@ The application will automatically open in your default web browser at `http://l
 streamlit run app.py --server.port 8080
 ```
 
-## 📖 How to Use
+## How to Use
 
 ### 1. Problem Setup
 1. Navigate to the **"Problem Setup"** page
@@ -195,7 +195,7 @@ streamlit run app.py --server.port 8080
    - Detailed evaluation reports
    - Winner recommendation
 
-## 📊 Sample Data
+##  Sample Data
 
 The application includes 20 sample student profiles with diverse characteristics:
 - **Education Levels**: High School, Undergraduate, Graduate
@@ -210,7 +210,7 @@ student_id,name,education_level,semester,age,math_score,physics_score,chemistry_
 1,John Doe,Undergraduate,3,20,75,80,70,85,78,Visual,4.5,Improve programming skills,Math;Chemistry,Programming,Web Development
 ```
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Learning Modules
 Edit `modules/recommendation_engine.py` and modify the `_define_learning_modules()` method to add subjects or modules.
@@ -221,7 +221,7 @@ Modify `modules/evaluation.py` to change metric calculations or add new evaluati
 ### Changing UI Theme
 Edit the CSS in `app.py` under the `st.markdown()` custom styles section.
 
-## 📈 Performance Metrics Explained
+##  Performance Metrics Explained
 
 | Metric | Description | Range |
 |--------|-------------|-------|
@@ -232,7 +232,7 @@ Edit the CSS in `app.py` under the `st.markdown()` custom styles section.
 | **Prerequisite Coherence** | Logical progression respecting prerequisites | 0.0 - 1.0 |
 | **Overall Score** | Weighted combination of all metrics | 0.0 - 1.0 |
 
-## 🧪 Testing
+##  Testing
 
 ### Test with Sample Data
 1. Run the application
@@ -252,7 +252,7 @@ Edit the CSS in `app.py` under the `st.markdown()` custom styles section.
 3. Verify both approaches generate different results
 4. Check that evaluation metrics are calculated
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: Module not found error
 **Solution**: Ensure you're in the correct directory and have activated the virtual environment.
@@ -266,7 +266,7 @@ Edit the CSS in `app.py` under the `st.markdown()` custom styles section.
 ### Issue: Visualizations not displaying
 **Solution**: Clear Streamlit cache: `streamlit cache clear`
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - **Export to PDF**: Download learning plans as PDF documents
 - **Progress Tracking**: Log student progress over time and adjust recommendations
@@ -279,29 +279,17 @@ Edit the CSS in `app.py` under the `st.markdown()` custom styles section.
 - **Advanced ML Models**: Deep learning for more sophisticated patterns
 - **A/B Testing**: Built-in experimentation framework for comparing strategies
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Contributors
-
-- **Project Lead**: [Your Name]
-- **AI Lab Course**: [University Name]
-- **Instructor**: [Instructor Name]
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Streamlit for the excellent web framework
 - Plotly for interactive visualizations
 - scikit-learn for machine learning algorithms
 - Sample student data generated for educational purposes
 
-## 📧 Contact
-
-For questions or feedback, please contact:
-- Email: [your-email@example.com]
-- GitHub: [your-github-profile]
-
 ---
 
-**Note**: This is an educational project developed for AI Lab coursework. It demonstrates AI integration, modular design, and user-centric development principles rather than production deployment.
+

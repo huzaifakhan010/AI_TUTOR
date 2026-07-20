@@ -43,19 +43,19 @@ def calculate_relevance_score(result: Dict, profile: Dict) -> float:
         difficulty = module['difficulty']
         current_score = subject_scores.get(subject, 0)
 
-        # Check if module difficulty matches student's level
+        
         if current_score < 60 and difficulty == 'beginner':
-            relevance_points += 1.0  # Perfect match
+            relevance_points += 1.0  
         elif 60 <= current_score < 75 and difficulty in ['beginner', 'intermediate']:
-            relevance_points += 0.9  # Good match
+            relevance_points += 0.9  
         elif 75 <= current_score < 85 and difficulty == 'intermediate':
-            relevance_points += 1.0  # Perfect match
+            relevance_points += 1.0  
         elif current_score >= 85 and difficulty in ['intermediate', 'advanced']:
-            relevance_points += 0.9  # Good match
+            relevance_points += 0.9  
         else:
-            relevance_points += 0.5  # Suboptimal match
+            relevance_points += 0.5  
 
-        # Bonus for addressing weak subjects
+        
         if subject in weak_subjects:
             relevance_points += 0.2
 
