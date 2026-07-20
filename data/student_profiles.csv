@@ -1,0 +1,21 @@
+student_id,name,education_level,semester,age,math_score,physics_score,chemistry_score,programming_score,english_score,learning_style,study_hours_per_day,goal,weak_subjects,strong_subjects,interests
+1,Alice Johnson,Undergraduate,3,20,85,78,82,90,88,Visual,5,Get high GPA for graduate school,Physics,Programming,AI and Machine Learning
+2,Bob Smith,Undergraduate,2,19,72,68,75,65,80,Kinesthetic,4,Improve programming skills,Programming;Math,English,Web Development
+3,Carol White,Undergraduate,4,21,90,92,88,85,82,Reading/Writing,6,Prepare for research career,English,Physics;Math,Data Science
+4,David Lee,High School,12,18,65,70,68,55,72,Visual,3,Pass entrance exam,Math;Programming,Physics,Robotics
+5,Emma Davis,Undergraduate,1,19,78,75,80,88,85,Auditory,4,Build strong foundation,Chemistry,Programming,Software Engineering
+6,Frank Miller,Graduate,2,23,92,88,90,95,80,Mixed,7,Publish research papers,English,Programming;Math,Artificial Intelligence
+7,Grace Chen,Undergraduate,3,20,88,85,82,78,90,Visual,5,Get internship at tech company,Programming,Math;English,Mobile Development
+8,Henry Brown,High School,11,17,60,65,58,50,68,Kinesthetic,2.5,Improve grades,Math;Chemistry;Programming,English,Gaming
+9,Ivy Martinez,Undergraduate,4,21,95,90,92,98,88,Reading/Writing,6,Achieve academic excellence,None,All subjects,Research and Innovation
+10,Jack Wilson,Undergraduate,2,20,70,72,75,68,78,Auditory,3.5,Balance academics and hobbies,Math;Physics,English,Music Production
+11,Karen Taylor,Graduate,1,22,85,82,88,90,92,Mixed,5.5,Complete thesis successfully,Physics,Programming;English,Natural Language Processing
+12,Leo Anderson,Undergraduate,3,20,82,80,78,85,80,Visual,4.5,Develop portfolio projects,Chemistry,Programming,Game Development
+13,Mia Thomas,High School,12,18,75,78,72,70,85,Reading/Writing,4,Score high in finals,Math;Programming,English;Physics,Creative Writing
+14,Noah Jackson,Undergraduate,1,19,68,65,70,72,75,Kinesthetic,3,Understand core concepts,Math;Physics;Chemistry,None,Sports Analytics
+15,Olivia Moore,Undergraduate,4,21,90,88,85,92,95,Mixed,6,Graduate with honors,Chemistry,Programming;English,Cybersecurity
+16,Paul Martin,Graduate,2,24,88,92,90,85,78,Visual,7,Contribute to open source,English,Math;Physics,Computer Vision
+17,Quinn Garcia,Undergraduate,2,19,78,75,80,82,88,Auditory,4,Learn practical skills,Physics,Programming;English,Cloud Computing
+18,Rachel Rodriguez,High School,11,17,72,70,68,65,80,Reading/Writing,3.5,Qualify for scholarship,Math;Programming;Physics,English,Digital Marketing
+19,Sam Hernandez,Undergraduate,3,20,85,88,90,78,82,Kinesthetic,5,Apply knowledge to real projects,Programming,Physics;Chemistry,Blockchain
+20,Tina Lopez,Undergraduate,1,19,80,78,82,88,85,Visual,4,Build strong technical base,Physics,Programming;Math,Web Development
